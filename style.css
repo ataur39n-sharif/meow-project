@@ -1,0 +1,79 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.name-color{
+    color: blueviolet;
+}
+.half-width{
+    float: left;
+    width: 30%;
+    height: 60%;
+    margin: 3%;
+    padding: 5%;
+    border: 1px solid red;
+}
+.half-width img{
+    margin-left: 3%;
+    width: 100%;
+}
+#section1{
+    height: 600px;
+    border: 1px solid red;
+    background-color: white;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.link-btn-border{
+    margin: 70px 80px;
+    padding: 30px;
+    border: 1px solid red;
+}
+#section2{
+    height: 600px;
+    border: 1px solid red;
+    background-color: white;
+}
+#section3{
+    height: 500px;
+    border: 1px solid red;
+    background-color: white;
+}
+#s3{
+    text-align: center;
+}
+.s3div{
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px dimgray;
+    height: 50%;
+    width: 20%;
+    float: left;
+    margin: 4%;
+    padding: 2%;
+    border: 1px solid red;
+}
+.s3div img{
+    height: 50%;
+    width: 80%;
+}
+#section4{
+    height: 300px;
+    border:1px solid red;
+    padding: 30px;
+    margin: 40pxS;
+}
