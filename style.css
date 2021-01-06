@@ -4,6 +4,9 @@ body{
 h1{
     font-size: 40px;
 }
+.half-width p{
+    padding-bottom: 50px;
+}
 h2{
     font-size: 30px;
 }
@@ -49,7 +52,7 @@ p{
     background-color: white;
 }
 #section3{
-    height: 500px;
+    height: 600px;
     border: 1px solid red;
     background-color: white;
 }
@@ -60,7 +63,7 @@ p{
     background-color: antiquewhite;
     border-radius: 8px;
     box-shadow: 8px 8px 20px dimgray;
-    height: 50%;
+    height: 55%;
     width: 20%;
     float: left;
     margin: 4%;
@@ -68,12 +71,57 @@ p{
     border: 1px solid red;
 }
 .s3div img{
-    height: 50%;
-    width: 80%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 #section4{
     height: 300px;
     border:1px solid red;
-    padding: 30px;
-    margin: 40pxS;
+}
+#section5{
+    height: 300px;
+    border:1px solid red;
+    text-align: center;
+}
+
+.s4div{
+    border: 1px solid red;
+    height: 30%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    background-image: url(shapes/footer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ft{
+    text-align: center;
+}
+.ft img{
+    height: 50px;
+    width: 50px;
+}
+.abc{
+    text-align: left;
+    padding-top: 50px;
+}
+.def{
+    text-align: right;
+    padding-bottom: 40px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+.half-shadow{
+    float: left;
+    width: 30%;
+    height: 20%;
+    margin-left: 34%;
+    border: 1px solid red;
 }
