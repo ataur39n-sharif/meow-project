@@ -18,11 +18,10 @@ p{
 }
 .half-width{
     float: left;
-    width: 30%;
+    width: 33%;
     height: 60%;
     margin: 3%;
     padding: 5%;
-    border: 1px solid red;
 }
 .half-width img{
     margin-left: 3%;
@@ -30,7 +29,7 @@ p{
 }
 #section1{
     height: 600px;
-    border: 1px solid red;
+
     background-color: white;
 }
 .link-btn{
@@ -44,20 +43,31 @@ p{
 .link-btn-border{
     margin: 70px 80px;
     padding: 30px;
-    border: 1px solid red;
+
 }
 #section2{
     height: 600px;
-    border: 1px solid red;
+
     background-color: white;
 }
 #section3{
     height: 600px;
-    border: 1px solid red;
     background-color: white;
 }
 #s3{
     text-align: center;
+}
+.visit-btn{
+
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-top: 10%;
+    margin-bottom: 30px;
+    padding: 15px;
+
+ 
 }
 .s3div{
     background-color: antiquewhite;
@@ -68,7 +78,10 @@ p{
     float: left;
     margin: 4%;
     padding: 2%;
-    border: 1px solid red;
+
+}
+.space{
+    padding-bottom: 10px;
 }
 .s3div img{
     display: block;
@@ -77,42 +90,57 @@ p{
   width: 100%;
 }
 #section4{
-    height: 300px;
-    border:1px solid red;
+    height: 150px;
+
 }
 #section5{
     height: 300px;
-    border:1px solid red;
     text-align: center;
 }
 
 .s4div{
-    border: 1px solid red;
-    height: 30%;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 60px;
+    height: 20px;
+    width: 58% ;
+    float: left;
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 20%;
+    padding: 50px;
+    position: center;
     background-image: url(shapes/footer.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .ft{
     text-align: center;
+
 }
 .ft img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 .abc{
     text-align: left;
-    padding-top: 50px;
 }
 .def{
-    text-align: right;
-    padding-bottom: 40px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
 }
-#full-stack{
+#day-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato, lightsalmon);
+    border-image-slice: 1;
+    background-color: white;
+
+}
+#day-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #7a8eff, rgb(191, 255, 71));
+    border-image-slice: 1;
+    background-color: white;
+}
+#day-3{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
@@ -123,5 +151,4 @@ p{
     width: 30%;
     height: 20%;
     margin-left: 34%;
-    border: 1px solid red;
 }
